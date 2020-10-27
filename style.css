@@ -1,0 +1,275 @@
+body {
+  background-color: lightblue;
+}
+
+
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+  /*font*/
+  font-size: 460%;
+  font-family: 'Shadows Into Light', cursive;
+  text-shadow: 2px 2px white;
+}
+
+
+h2{
+	margin:5px;
+	font-size: 60px;
+	font-family: 'Architects Daughter', cursive;
+
+}
+
+h3{
+	margin:5px;
+	font-family: 'Pragati Narrow', sans-serif;
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+  border: 5px solid #666;
+
+}
+
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  background-color: #5284ad;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #459cbc;
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+.text-center {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* Index */
+body, html {
+    height: 100%;
+}
+
+
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media.resources.festicket.com/www/magazine/FestFestival2020JamesBayList.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image1{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images-na.ssl-images-amazon.com/images/I/71JIaBQu-4L._AC_SL1500_.jpg");
+
+	  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image2{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images-na.ssl-images-amazon.com/images/I/61Kxef1ZFOL._AC_SL1400_.jpg");
+
+	  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #459cbc;
+  font-size: 300%;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+
+.hero-text1 {
+	color: #d57e2a;
+}
+
+.hero-text2 {
+	color: #c7384e;
+}
+.button {
+  background-color:  #459cbc; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.button2 {background-color: #d57e2a;}
+.button3 {background-color: #c7384e;}
+
+
+/* Table */
+
+
+
+table, th, td {
+  border: 5px solid black;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+th, td {
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Pragati Narrow', sans-serif;
+}
+
+/* BIO */
+.leftBio{
+	padding: 20px;
+	border: 5px;
+	margin: 10px;
+	font-size: 30px;
+	font-family: 'Pragati Narrow', sans-serif;
+}
+
+.rightBio{
+	padding: 20px;
+	border: 5px;
+	font-size: 30px;
+	font-family: 'Pragati Narrow', sans-serif;
+}
+
+p {
+	margin:10px;
+}
+
+.subtitle{
+	font-size: 40px;
+	color: black;
+}
+
+/* list */
+ul {
+	font-size: 30px;
+	font-family: 'Pragati Narrow', sans-serif;
+	margin-left: 40%;
+
+}
+
+
+
+hr {
+	border:4px solid #333;						;
+	border-radius: 5px;
+}
+
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+div h2{
+	font-family: 'Architects Daughter', cursive;
+  	font-size: 20px;
+  	color: #f2f2f2;
+}
+
+
+
+
+
+
+
